@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+	.text-overlay {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0.75rem;
+  border-top: 2px solid #d2d5e4;
+}
+li:not(:last-child) {
+  border-right: 2px solid #d2d5e4;
+}
+</style>
+</head>
+<body>
+<ul class="text-overlay">
+  <li>Details</li>
+  <li>Live View</li>
+</ul>
+
+</body>
+</html>
